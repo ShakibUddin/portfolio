@@ -1,0 +1,64 @@
+.hello-section{
+    display: flex;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url("images/decoration1.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+.hello-title{
+    font-size: 3vw;
+    padding: 10px;
+}
+.name{
+    color: var(--primary-color);
+}
+.occupation-title{
+    font-size: 2.5vw;
+    padding: 10px;
+}
+.objective{
+    font-size: 1vw;
+    text-align: justify;
+    padding: 10px;
+}
+
+.text-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+.say-hello{
+    background: var(--gradient-color);
+    padding: 10px;
+    color: white;
+    font-size: 2vw;
+    border: none;
+    width: 40%;
+    margin: 20px 10px;
+    cursor: pointer;
+    border: 2px solid var(--gradient-color);
+}
+.say-hello:hover{
+    border: 2px solid var(--primary-color);
+    color: var(--gradient-color);
+    background: white;
+}
+.image-div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-image{
+    width: 60%;
+    border: 20px solid white;
+    border-radius: 100%;
+}
+
+
+footer p {
+    text-align: center;
+}
