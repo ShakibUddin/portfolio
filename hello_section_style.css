@@ -1,25 +1,9 @@
 .hello-section{
     display: flex;
-    max-width: 100%;
+    max-width: 100vw;
     overflow-x: hidden;
+    margin-bottom: 50px;
 }
-.hello-title{
-    font-size: 3vw;
-    padding: 10px;
-}
-.name{
-    color: var(--primary-color);
-}
-.occupation-title{
-    font-size: 2.5vw;
-    padding: 10px;
-}
-.objective{
-    font-size: 1vw;
-    text-align: justify;
-    padding: 10px;
-}
-
 .text-div{
     width: 45%;
     display: flex;
@@ -28,16 +12,32 @@
     margin-left: 10%;
 }
 
-
+.hello-title{
+    font-size: 3rem;
+    padding: 1% 0;
+}
+.name{
+    color: var(--primary-color);
+}
+.occupation-title{
+    font-size: 2rem;
+    padding: 1% 0;
+}
+.objective{
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1% 0;
+}
 .say-hello{
     background: var(--gradient-color);
-    padding: 1%;
+    padding: 1% 0;
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     border: none;
-    width: 40%;
-    margin: 1%;
+    width: 60%;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
     border: 2px solid white;
 }
 .say-hello:hover{
@@ -45,6 +45,7 @@
     color: var(--primary-color);
     background: white;
 }
+
 .image-div{
     width: 50%;
     display: flex;
@@ -52,7 +53,7 @@
     justify-content: center;
 }
 .my-image{
-    width: 80%;
+    width: 100%;
     border-radius: 100%;
 }
 
