@@ -9,3 +9,7 @@
     --light-color: #ffffff;
     --gradient-color: linear-gradient(to right, var(--primary-color) , var(--secondary-color));
 }
+footer p {
+    text-align: center;
+    font-size: 1rem;
+}
