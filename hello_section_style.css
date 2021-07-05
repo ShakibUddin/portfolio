@@ -28,19 +28,19 @@
     text-align: justify;
     padding: 1% 0;
 }
-.say-hello{
+.hire-me{
     background: var(--gradient-color);
     padding: 1% 0;
     color: white;
     font-size: 2rem;
     border: none;
-    width: 60%;
+    width: 80%;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     border: 2px solid white;
 }
-.say-hello:hover{
+.hire-me:hover{
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
     background: white;
