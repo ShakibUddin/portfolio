@@ -1,11 +1,8 @@
 .experience-section{
-    margin-top: 50px;
     max-width: 100vw;
+    min-height: 100vh;
     padding: 8%;
-    background-image: url("images/decoration1.png");
-    background-size: 95%;
-    background-repeat: no-repeat;
-    background-position: top;
+    background: var(--gradient-color);
 }
 .experience-title{
     font-size: 2.5rem;
@@ -27,7 +24,7 @@
     border: none;
     background: white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 2vw;
+    border-radius: 15px;
     padding: 30px;
 }
 .job-title{
