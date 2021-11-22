@@ -2,176 +2,128 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="hello_section_style.css">
-    <link rel="stylesheet" href="experience_section_style.css">
-    <link rel="stylesheet" href="skills_section_style.css">
-    <link rel="stylesheet" href="projects_section_style.css">
-    <link rel="stylesheet" href="blogs_section_style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Shakib Uddin Bhuiyan</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <section class="hello-section">
-        <div class="text-div">
-            <p class="hello-title">Hello, I Am <span class="name">SHAKIB UDDIN</span></p>
-            <p class="occupation-title">Software Engineer</p>
-            <p class="objective">Enthusiastic Software Engineer eager to contribute to team success through hard work,
-                attention to detail and excellent organizational skills. Motivated to learn, grow and excel in Full
-                Stack Web Development.</p>
-            <a class="hire-me" target="_blank" href="https://www.linkedin.com/in/md-shakib-uddin-bhuiyan-33031518a">Hire
-                Me</a>
-        </div>
-        <div class="image-div">
-            <img class="my-image" src="images/sakib.png" alt="">
-        </div>
-        <div class="social-div">
-            <a target="_blank" href="https://www.linkedin.com/in/md-shakib-uddin-bhuiyan-33031518a"
-                class="fa fa-linkedin"></a>
-            <a target="_blank" href="https://shakibuddinbhuiyan.medium.com/" class="fa fa-medium"></a>
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100011011868115"
-                class="fa fa-facebook"></a>
-            <a target="_blank" href="https://github.com/ShakibUddin" class="fa fa-github"></a>
-        </div>
-    </section>
-    <section class="experience-section">
-        <p class="experience-title"><b>EXPERIENCES</b></p>
-        <div class="experiences">
-            <div class="experience-div">
-                <p class="job-title"><b>Software Engineer (Trainee), It Craft Ltd</b></p>
-                <p class="job-period">DECEMBER,2019 – PRESENT</p>
-                <ul class="job-tasks">
-                    <li>Design, develop, test and maintain mobile applications.</li>
-                    <li>Build cross-platform mobile applications using Flutter.</li>
-                    <li>Ensure the best performance, quality, and responsiveness of the application.</li>
-                </ul>
-            </div>
-            <div class="experience-div">
-                <p class="job-title"><b>Secretary of Programming & Project Showcasing, NUB Computer Club</b></p>
-                <p class="job-period">NOVEMBER,2020 – PRESENT</p>
-                <ul class="job-tasks">
-                    <li>Train and coach competitive programming.</li>
-                    <li>Arrange workshops and seminars.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="skills-section">
-        <p class="skills-title"><b>SKILLS</b></p>
-        <div class="skills-div">
-            <p>HTML</p>
-            <div class="container">
-                <div class="skills html">90%</div>
-            </div>
+<body class="2xl:container">
+  <section
+    class="w-full flex lg:flex-row md:flex-row flex-col lg:justify-between md:justify-between justify-center lg:p-16 md:p-16 p-8 h-screen bg-gray-900">
+    <div class="flex flex-col justify-center items-start">
+      <p class="text-4xl font-bold text-white my-2">
+        Hello, I Am <span class="text-green-400">SHAKIB UDDIN</span>
+      </p>
+      <p class="text-xl text-green-500 mb-8">Software Engineer</p>
+      <p class="text-base text-white lg:w-2/4 md:w/4">
+        Enthusiastic Software Engineer eager to contribute to team success
+        through hard work, attention to detail and excellent organizational
+        skills. Motivated to learn, grow and excel in Full Stack Web
+        Development.
+      </p>
+      <button class="px-6 py-4 uppercase text-xl bg-gradient-to-r from-green-600 to-green-500 text-white my-4 rounded-md shadow-md">See My
+        Works</button>
+    </div>
+    <div class=" lg:flex md:flex hidden flex-col justify-center">
+      <a target="_blank" href="https://www.linkedin.com/in/md-shakib-uddin-bhuiyan-33031518a"
+        class="fa fa-linkedin text-white bg-green-400 p-4 rounded-md w-12 h-12 mr-2 mt-4 "></a>
+      <a target="_blank" href="https://shakibuddinbhuiyan.medium.com/"
+        class="fa fa-medium text-white bg-green-400 p-4 rounded-md w-12 h-12 mr-2 mt-4  "></a>
+      <a target="_blank" href="https://www.facebook.com/profile.php?id=100011011868115"
+        class="fa fa-facebook text-white bg-green-400 p-4 rounded-md w-12 h-12 mr-2 mt-4  "></a>
+      <a target="_blank" href="https://github.com/ShakibUddin" class="fa fa-github text-white bg-green-400 p-4 rounded-md w-12 h-12 mr-2 mt-4  "></a>
+    </div>
 
-            <p>CSS</p>
-            <div class="container">
-                <div class="skills css">80%</div>
-            </div>
 
-            <p>JavaScript</p>
-            <div class="container">
-                <div class="skills js">80%</div>
-            </div>
+  </section>
+  <section class="skills-section">
+    <p class="skills-title"><b>SKILLS</b></p>
+    <div class="skills-div">
 
-            <p>JAVA</p>
-            <div class="container">
-                <div class="skills java">80%</div>
-            </div>
-            <p>PYTHON</p>
-            <div class="container">
-                <div class="skills python">75%</div>
-            </div>
-            <p>NODE JS</p>
-            <div class="container">
-                <div class="skills node">65%</div>
-            </div>
-            <p>FLUTTER</p>
-            <div class="container">
-                <div class="skills flutter">85%</div>
-            </div>
+    </div>
+  </section>
+  <section class="projects-section">
+    <p class="projects-title"><b>PROJECTS</b></p>
+    <div class="projects">
+      <div class="project-div">
+        <img class="project-thumbnail" src="images/nub_cafe.PNG" alt="" />
+        <div class="project-technologies-div">
+          <p class="project-technology html">Html</p>
+          <p class="project-technology css">Css</p>
+          <p class="project-technology js">JavaScript</p>
+          <p class="project-technology node">Node.js</p>
+          <p class="project-technology mongo">Mongo DB</p>
         </div>
-    </section>
-    <section class="projects-section">
-        <p class="projects-title"><b>PROJECTS</b></p>
-        <div class="projects">
-            <div class="project-div">
-                <img class="project-thumbnail" src="images/nub_cafe.PNG" alt="">
-                <div class="project-technologies-div">
-                    <p class="project-technology html">Html</p>
-                    <p class="project-technology css">Css</p>
-                    <p class="project-technology js">JavaScript</p>
-                    <p class="project-technology node">Node.js</p>
-                    <p class="project-technology mongo">Mongo DB</p>
-                </div>
-                <p class="project-name"><b>NUB CAFE</b></p>
-                <a target="_blank" class="live-link" href="https://nub-cafe.netlify.app/">LIVE</a>
-            </div>
-            <div class="project-div">
-                <img class="project-thumbnail" src="images/entab.PNG" alt="">
-                <div class="project-technologies-div">
-                    <p class="project-technology flutter">Flutter</p>
-                </div>
-                <p class="project-name"><b>Entrepreneurs Association of Bangladesh</b></p>
-                <a target="_blank" class="live-link"
-                    href="https://play.google.com/store/apps/details?id=com.itcraftltd.entab">LIVE</a>
-            </div>
-            <div class="project-div">
-                <img class="project-thumbnail" src="images/prantikerp.PNG" alt="">
-                <div class="project-technologies-div">
-                    <p class="project-technology flutter">Flutter</p>
-                </div>
-                <p class="project-name"><b>Prantik ERP</b></p>
-                <a target="_blank" class="live-link"
-                    href="https://play.google.com/store/apps/details?id=com.itcraftltd.prantikerp">LIVE</a>
-            </div>
-            <div class="project-div">
-                <img class="project-thumbnail" src="images/badc.PNG" alt="">
-                <div class="project-technologies-div">
-                    <p class="project-technology java">Java</p>
-                </div>
-                <p class="project-name"><b>BADC Hydromet</b></p>
-                <a target="_blank" class="live-link"
-                    href="https://play.google.com/store/apps/details?id=com.itcraftltd.hydromet">LIVE</a>
-            </div>
+        <p class="project-name"><b>NUB CAFE</b></p>
+        <a target="_blank" class="live-link" href="https://nub-cafe.netlify.app/">LIVE</a>
+      </div>
+      <div class="project-div">
+        <img class="project-thumbnail" src="images/entab.PNG" alt="" />
+        <div class="project-technologies-div">
+          <p class="project-technology flutter">Flutter</p>
         </div>
-    </section>
-    <section class="blogs-section">
-        <p class="blogs-title"><b>BLOGS</b></p>
-        <div class="blogs">
-            <div class="blog-div">
-                <img class="blog-thumbnail" src="images/solid.jfif" alt="">
-                <p class="blog-name"><b>What is SOLID?</b></p>
-                <p class="blog-description">SOLID is a series of principles that you must abide by to keep your code</p>
-                <a target="_blank" class="read-link"
-                    href="https://shakibuddinbhuiyan.medium.com/what-are-solid-design-principles-2fb608755fd1">READ</a>
-            </div>
-            <div class="blog-div">
-                <img class="blog-thumbnail" src="images/super.jfif" alt="">
-                <p class="blog-name"><b>Super in Java</b></p>
-                <p class="blog-description">In Java, there is a keyword called super. It has many functionalities.</p>
-                <a target="_blank" class="read-link"
-                    href="https://shakibuddinbhuiyan.medium.com/super-in-java-ef121c7a63b5">READ</a>
-            </div>
-            <div class="blog-div">
-                <img class="blog-thumbnail" src="images/inheritance.jfif" alt="">
-                <p class="blog-name"><b>What is inheritance?</b></p>
-                <p class="blog-description">Let’s explain with an example from the Marvel Cinematic universe.</p>
-                <a target="_blank" class="read-link"
-                    href="https://shakibuddinbhuiyan.medium.com/what-is-inheritance-a3756c82cfea">READ</a>
-            </div>
+        <p class="project-name">
+          <b>Entrepreneurs Association of Bangladesh</b>
+        </p>
+        <a target="_blank" class="live-link" href="https://play.google.com/store/apps/details?id=com.itcraftltd.entab">LIVE</a>
+      </div>
+      <div class="project-div">
+        <img class="project-thumbnail" src="images/prantikerp.PNG" alt="" />
+        <div class="project-technologies-div">
+          <p class="project-technology flutter">Flutter</p>
         </div>
-    </section>
-    <section class="contact-section">
-
-    </section>
-    <footer>
-        <p>&copy; Copyright 2021. Developed by Md Shakib Uddin Bhuiyan</p>
-    </footer>
+        <p class="project-name"><b>Prantik ERP</b></p>
+        <a target="_blank" class="live-link" href="https://play.google.com/store/apps/details?id=com.itcraftltd.prantikerp">LIVE</a>
+      </div>
+      <div class="project-div">
+        <img class="project-thumbnail" src="images/badc.PNG" alt="" />
+        <div class="project-technologies-div">
+          <p class="project-technology java">Java</p>
+        </div>
+        <p class="project-name"><b>BADC Hydromet</b></p>
+        <a target="_blank" class="live-link" href="https://play.google.com/store/apps/details?id=com.itcraftltd.hydromet">LIVE</a>
+      </div>
+    </div>
+  </section>
+  <section class="blogs-section">
+    <p class="blogs-title"><b>BLOGS</b></p>
+    <div class="blogs">
+      <div class="blog-div">
+        <img class="blog-thumbnail" src="images/solid.jfif" alt="" />
+        <p class="blog-name"><b>What is SOLID?</b></p>
+        <p class="blog-description">
+          SOLID is a series of principles that you must abide by to keep your
+          code
+        </p>
+        <a target="_blank" class="read-link" href="https://shakibuddinbhuiyan.medium.com/what-are-solid-design-principles-2fb608755fd1">READ</a>
+      </div>
+      <div class="blog-div">
+        <img class="blog-thumbnail" src="images/super.jfif" alt="" />
+        <p class="blog-name"><b>Super in Java</b></p>
+        <p class="blog-description">
+          In Java, there is a keyword called super. It has many
+          functionalities.
+        </p>
+        <a target="_blank" class="read-link" href="https://shakibuddinbhuiyan.medium.com/super-in-java-ef121c7a63b5">READ</a>
+      </div>
+      <div class="blog-div">
+        <img class="blog-thumbnail" src="images/inheritance.jfif" alt="" />
+        <p class="blog-name"><b>What is inheritance?</b></p>
+        <p class="blog-description">
+          Let’s explain with an example from the Marvel Cinematic universe.
+        </p>
+        <a target="_blank" class="read-link" href="https://shakibuddinbhuiyan.medium.com/what-is-inheritance-a3756c82cfea">READ</a>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section"></section>
+  <footer>
+    <p>&copy; Copyright 2021. Developed by Md Shakib Uddin Bhuiyan</p>
+  </footer>
 </body>
 
 </html>
