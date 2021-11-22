@@ -8,11 +8,10 @@
   <title>Md. Shakib Uddin Bhuiyan</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body class="2xl:container bg-gray-900">
-  <section
+  <section id="hero"
     class="w-full flex lg:flex-row md:flex-row flex-col lg:justify-between md:justify-between justify-center lg:px-16 md:px-16 px-8 min-h-screen	">
     <div class="flex flex-col justify-center items-start">
       <p class="text-4xl font-bold text-white my-2">
@@ -25,9 +24,14 @@
         skills. Motivated to learn, grow and excel in Full Stack Web
         Development.
       </p>
-      <a href="#skills" class="px-6 py-4 uppercase text-xl bg-gradient-to-r from-green-600 to-green-500 text-white my-4 rounded-md shadow-md">See
-        My
-        Works</a>
+      <div class="flex flex-wrap">
+        <a href="#projects"
+          class="px-6 py-2 uppercase text-xl bg-gradient-to-r from-green-600 to-green-500 text-white my-4 rounded-md shadow-md mr-4">See
+          My
+          Works</a>
+        <a target="_blank" href="https://drive.google.com/file/d/1ypoSmmieuo-loOowLsQqXcNY_JDLkZDM/view?usp=sharing"
+          class="px-6 py-2 uppercase text-xl border-2 border-green-600 text-white my-4 rounded-md shadow-md">Resume</a>
+      </div>
     </div>
     <div class=" lg:flex md:flex hidden flex-col justify-center">
       <a target="_blank" href="https://www.linkedin.com/in/md-shakib-uddin-bhuiyan-33031518a"
@@ -41,7 +45,7 @@
 
 
   </section>
-  <section class="w-full min-h-screen	 lg:px-16 md:px-16 px-8">
+  <section id="skills" class="w-full min-h-screen	 lg:px-16 md:px-16 px-8">
     <div id="skills">
       <p class="text-4xl text-green-400 font-bold uppercase my-16 text-center">Skills</p>
       <div class="flex justify-center flex-wrap">
@@ -284,7 +288,17 @@
       </div>
     </div>
   </section>
-  <section class="contact-section"></section>
+  <section id="contact" class="w-full p-4 flex flex-col min-h-screen justify-center items-center">
+    <p class="text-4xl text-green-400 font-bold uppercase my-16 text-center">Let's Talk</p>
+    <form action="https://formsubmit.co/shakibuddinbhuiyan@gmail.com" method="POST" class="flex flex-col lg:w-2/4 md:w-3/4 w-full">
+      <input type="hidden" name="contact_number">
+      <input class="my-2 rounded-md shadow-md p-4" placeholder="Enter Name" type="text" name="user_name">
+      <input class="my-2 rounded-md shadow-md p-4" placeholder="Enter Email" type="email" name="user_email">
+      <textarea class="my-2 rounded-md shadow-md p-4" placeholder="Enter Message" name="message" type="text"></textarea>
+      <input class="px-6 py-4 uppercase text-xl bg-gradient-to-r from-green-600 to-green-500 text-white my-4 rounded-md shadow-md cursor-pointer"
+        type="submit" value="Send">
+    </form>
+  </section>
   <footer class="my-2 text-white text-center">
     <p>&copy; Copyright 2021. Developed by Md Shakib Uddin Bhuiyan</p>
   </footer>
