@@ -1,0 +1,44 @@
+.experience-section{
+    max-width: 100vw;
+    min-height: 100vh;
+    padding: 8%;
+    background: var(--gradient-color);
+}
+.experience-title{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+}
+.experiences{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.experience-div{
+    width: 40%;
+    min-width: 300px;
+    margin: 1%;
+    border: none;
+    background: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    padding: 30px;
+}
+.job-title{
+    font-size: 1.7rem;
+    color: black;
+}
+.job-period{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.job-tasks{
+    padding: 2% 2% 0% 2%;
+}
+.job-tasks li{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
