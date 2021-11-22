@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .shadow {
   box-shadow: #4e9f3d 2px 2px 6px 0px;
 }
