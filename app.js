@@ -9,8 +9,8 @@ navbarMobileButton.addEventListener("click", () => {
         navbarItems.style.flexDirection = "column";
         navbarItems.style.backgroundColor = "white";
         navbarItems.style.position = "absolute";
-        navbarItems.style.top = "50px";
-        navbarItems.style.left = "25px";
+        navbarItems.style.top = "70px";
+        navbarItems.style.left = "35px";
         navbarItems.style.userSelect = "none";
     }
     else {
